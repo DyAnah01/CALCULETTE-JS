@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="conteneur" >
+        <form>
+            <fieldset>
+                <div id="titreh1">
+                    <div class="bl"></div>
+                    <h1>✨Calculatrice✨</h1>
+                    <div class="bl"></div>
+                </div> 
+                <div id="valeurs">
+                <input type="number" placeholder="Nombre1" id="a">
+                <input type="number" placeholder="Nombre2" id="b">
+                </div>
+                <div id="confirm">
+                    <div id="correct"></div>
+                    <div id="invalide"></div>   
+                </div>
+                <div id="operateurs">
+                    <button id="plus" class="ope" title="Addition">+</button>
+                    <button id="moins" class="ope" title="Soustraction">-</button>
+                    <button id="divise" class="ope" title="Division">/</button>
+                    <button id="multip" class="ope" title="Multiplication">x</button>
+                    <button id="modulo" class="ope" title="Modulo (Le reste de la division)">%</button>
+                    <button id="moyenne" class="ope" title="Moyenne (la moyenne de deux nombres">M</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
